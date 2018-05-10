@@ -1,0 +1,143 @@
+@w1:1px;
+@w5:5px;
+.mt-2{
+    margin-top: @w1*2;
+}
+.mt-5{
+    margin-top: @w5;
+}
+.mt-10{
+    margin-top: @w5*2;
+}
+.mt-15{
+    margin-top: @w5*3;
+}
+.mt-20{
+    margin-top: @w5*4;
+}
+.mr-2{
+    margin-right: @w1*2;
+}
+.mr-5{
+    margin-right: @w5;
+}
+.mr-10{
+    margin-right: @w5*2;
+}
+.mr-15{
+    margin-right: @w5*3;
+}
+.mr-20{
+    margin-top: @w5*4;
+}
+.mb-2{
+    margin-right: @w1*2;
+}
+.mb-5{
+    margin-bottom: @w5;
+}
+.mb-10{
+    margin-bottom: @w5*2;
+}
+.mb-15{
+    margin-bottom: @w5*3;
+}
+.mb-20{
+    margin-bottom: @w5*4;
+}
+.ml-2{
+    margin-left: @w1*2;
+}
+.ml-5{
+    margin-left: @w5;
+}
+.ml-10{
+    margin-left: @w5*2;
+}
+.ml-15{
+    margin-left: @w5*3;
+}
+.ml-20{
+    margin-left: @w5*4;
+}
+body{
+    background: #F2F1EE;
+}
+.swipers{
+    img{
+        width: 100%;
+    }
+}
+.swiper-pagination{
+    background: rgba(0,0,0,0.5);
+    bottom: @w5 !important;
+    text-align: right;
+    padding-right: @w5;
+}
+.content{
+    padding-left: @w5;
+    padding-right: @w5;
+    .cont2{
+        overflow: hidden;
+        zoom: 1;
+        width: 100%;
+        li{
+            float: left;
+            width: 50%;
+            padding-right: @w1*2;
+        };
+        li:nth-of-type(2){
+            padding-right: 0;
+            padding-left: @w1*2;
+        }
+    }
+    .cont4{
+        overflow: hidden;
+        zoom: 1;
+        width: 100%;
+        border: solid @w1 #E3E3E3;
+        li{
+            float: left;
+            width: 25%;
+        };
+        li:nth-of-type(4n-3) a{
+            border-left: 0;
+        }
+    }
+}
+.two{
+    padding: 10px 0 10px 35%;
+    background-color: #fff;
+    background-image: url(../img/icon.png);
+    background-repeat: no-repeat;
+    background-size: 45px 45px;
+    background-position: 7%;
+    display: block;
+    border: solid @w1 #E3E3E3;
+    h3{
+        font-size: 17px;
+        color: #333;
+        font-weight: 400;
+    };
+    span{
+        font-size: 14px;
+        color: #666;
+    }
+    
+}
+.four{
+    display: block;
+    text-align: center;
+    border-left: solid #E3E3E3 @w1;
+    border-bottom: solid #E3E3E3 @w1;
+    padding: 10px 0 15px;
+    background: #fff;
+    img{
+        width: 30px;
+        height: 30px;
+    };
+    h3{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
