@@ -6,3 +6,5 @@ var mySwiper = new Swiper('.swipers', {
 	preventClicks: false,
 	pagination: '.swiper-pagination'
 });
+var iwid = $('.item a').width();
+$('.info').width(iwid-80)

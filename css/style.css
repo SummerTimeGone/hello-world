@@ -136,3 +136,79 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
+.newBox {
+  padding: 5px 5px 0 5px;
+}
+.news {
+  background: #fff;
+}
+.news a {
+  display: block;
+}
+.newTit {
+  padding: 15px 10px 10px;
+  color: #444;
+  font-size: 16px;
+}
+.firstN {
+  position: relative;
+  padding: 0 10px;
+}
+.firstN a {
+  position: relative;
+}
+.firstN a img {
+  width: 100%;
+}
+.firstN a p {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  overflow: hidden;
+  word-break: break-all;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 10px 10px;
+}
+.newList .item {
+  padding: 10px;
+  border-bottom: solid 1px #ccc;
+  clear: both;
+}
+.newList .item img {
+  width: 75px;
+  height: 55px;
+}
+.newList .item .info {
+  display: inline-block;
+  vertical-align: top;
+}
+.newList .item .info h4 {
+  font-size: 16px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+.newList .item .info p {
+  font-size: 13px;
+  color: #999;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+footer {
+  padding-bottom: 80px;
+  text-align: center;
+  background: #fff;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 10px;
+}
+footer a {
+  color: #00c;
+}
