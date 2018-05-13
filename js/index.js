@@ -1,4 +1,4 @@
-//
+// swiper 初始化
 var mySwiper = new Swiper('.swipers', {
 	direction: 'horizontal',
 	loop: true,
