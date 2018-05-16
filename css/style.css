@@ -59,7 +59,15 @@
   margin-left: 20px;
 }
 body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+.ibody {
   background: #F2F1EE;
+}
+.box {
+  flex: 1;
 }
 .swipers img {
   width: 100%;
@@ -202,6 +210,7 @@ body {
   overflow: hidden;
 }
 footer {
+  flex: 0;
   padding-bottom: 80px;
   text-align: center;
   background: #fff;
@@ -211,4 +220,101 @@ footer {
 }
 footer a {
   color: #00c;
+}
+nav {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+nav .nav {
+  height: 56px;
+  display: flex;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ececec), to(#dfdfdf));
+  border-top: 1px #e7e7e7 solid;
+}
+nav .Innav {
+  height: 35px;
+  display: flex;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#212C30), to(#121619));
+}
+nav .Innav li.navOne {
+  flex: 1;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255, 255, 255, 0.1)), color-stop(50%, rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.1)));
+  background-size: 1px 80%;
+  background-position: right center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+}
+nav .Innav li.navOne a {
+  color: #fff;
+  font-size: 24px;
+  display: block;
+}
+nav .Innav li.navOne:last-of-type {
+  background: none;
+  position: relative;
+}
+nav .Innav li.navOne:last-of-type ul {
+  display: none;
+  position: absolute;
+  bottom: 40px;
+  width: 120px;
+  right: 10px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.8);
+}
+nav .Innav li.navOne:last-of-type ul li {
+  height: 35px;
+  border-top: 1px solid #40484b;
+  border-bottom: 1px solid #000609;
+}
+nav .Innav li.navOne:last-of-type ul li:first-of-type {
+  border-top: none;
+}
+nav .Innav li.navOne:last-of-type ul li:last-of-type {
+  border-bottom: none;
+}
+nav .Innav li.navOne:last-of-type ul a {
+  line-height: 35px;
+  font-size: 14px;
+}
+.secend:after {
+  content: '';
+  border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+  border-width: 6px 6px 0px 6px;
+  width: 0px;
+  height: 0px;
+  display: block;
+  border-style: solid;
+  position: absolute;
+  bottom: -6px;
+  left: 70%;
+}
+.point {
+  flex: 1;
+  text-align: center;
+}
+.point a {
+  color: #999;
+  display: block;
+  font-size: 24px;
+}
+.point a div {
+  font-size: 14px;
+  color: #333;
+}
+.Bbox {
+  padding: 10px;
+}
+.Bbox h2 {
+  padding-bottom: 10px;
+}
+.Bcont img {
+  width: 100%;
+}
+.Bcont p {
+  font-size: 14px;
+  line-height: 1.5em;
+  text-indent: 2em;
 }

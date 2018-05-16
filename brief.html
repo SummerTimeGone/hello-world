@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>简介</title>
+		<link rel="stylesheet" href="lib/reset.css" />
+		<link rel="stylesheet" href="lib/font/css/font-awesome.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="box Bbox">
+			<h2 class="Btitle">假装这有名字</h2>	
+			<div class="Bcont">
+				<img src="img/2.jpg" alt="" />
+				<p class="mt-10">
+					这就是一段文字如果需要支持IE7，那真的十分抱歉。
+					Font Awesome从4.1.0版本开始不再支持IE7， 但更早的版本仍然支持。
+					您可以查看 3.2.1 的IE7支持说明。 然后呢，您可以去找那个非要支持IE7的人算账 :)
+				</p>
+			</div>
+		</div>
+		<footer>
+			<a href="javascript:;">占位符</a>提供技术
+		</footer>
+		<nav>
+			<ul class="Innav">
+				<li class="navOne">
+					<a href="javascript:history.go(-1);">
+						<i class="fa fa-chevron-circle-left"></i>
+					</a>
+				</li>
+				<li class="navOne">
+					<a href="index.html">
+						<i class="fa fa-home"></i>
+					</a>
+				</li>
+				<li class="navOne">
+					<a href="javascript:;">
+						<i class="fa fa-phone"></i>
+					</a>
+				</li>
+				<li class="navOne others">
+					<a href="javascript:;">
+						<i class="fa fa-navicon"></i>
+					</a>
+					<ul class="secend">
+						<li><a href="">这是二级菜单</a></li>
+						<li><a href="">这是二级菜单</a></li>
+						<li><a href="">这是二级菜单</a></li>
+						<li><a href="">这是二级菜单</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<script src="lib/JQurey/jquery-3.3.1.min.js"></script>
+		<script>
+			$('.others').on('click',function(){
+				$('.secend').toggle()
+			})
+		</script>
+	</body>
+</html>
